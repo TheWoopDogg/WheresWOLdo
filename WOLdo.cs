@@ -33,7 +33,7 @@ namespace WOLdo
             _noMove = _configuration.NoMove;
             _scale = _configuration.Scale;
             _enabled = _configuration.Enabled;
-            _align = _configuration.Align;
+            _align = 1;
             _terr = pi.Data.GetExcelSheet<TerritoryType>();
 
             _pi.UiBuilder.OnBuildUi += DrawWindow;
